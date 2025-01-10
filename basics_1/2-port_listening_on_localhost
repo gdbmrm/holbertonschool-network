@@ -1,1 +1,6 @@
 #!/usr/bin/env bash
+#Port listening on localhost
+telnet localhost
+telnet 98
+echo "Hello world"
+echo "test"
