@@ -1,0 +1,30 @@
+What Happens When You Type "https://www.google.com" in Your Browser?
+
+When you type https://www.google.com and press Enter, a bunch of things happen really fast to get you to the Google homepage.
+
+Here’s a simple breakdown:
+1. DNS Request: Finding the IP Address
+First, your browser needs to figure out where www.google.com is located on the internet. It asks a DNS server to convert the domain name into an IP address, like 172.217.4.46.
+
+2. TCP/IP Connection
+Once the browser has the IP address, it uses TCP/IP to establish a connection with Google's server, ensuring that data can be sent and received properly.
+
+3. Firewall Protection
+A firewall checks the request on both your end and Google's end to make sure the connection is safe and secure from any threats.
+
+4. HTTPS/SSL Encryption
+Since the address starts with https://, the connection is encrypted using SSL/TLS, meaning any data sent (like your search queries) is protected from hackers.
+
+5. Load Balancer
+Google uses a load balancer to send your request to one of their servers that isn’t too busy, helping to keep everything fast and responsive.
+
+6. Web Server
+The web server handles the basic request, like sending the HTML, CSS, and images that make up the Google homepage.
+
+7. Application Server
+If the page needs dynamic content (like your personalized Google homepage or search results), the application server runs the code to generate and send that data.
+
+8. Database
+Google’s database stores lots of data, like your search history or the results you see when you search. The application server asks the database for the relevant information.
+
+So, every time you visit Google, a bunch of steps happen in the background, including DNS lookups, secure connections, traffic management, and data retrieval, all to make sure you get the Google homepage in just a few seconds!
